@@ -1,0 +1,14 @@
+[package]
+name = "event-processor"
+version = "1.0.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0.69"
+bytes = "1.4.0"
+futures = { version = "0.3.26", features = ["std"] }
+tokio-stream = "0.1.12"
+tokio = { version = "1.26.0", features = ["full"] }
+
+[dev-dependencies]
+assert_matches = "1.5.0"
