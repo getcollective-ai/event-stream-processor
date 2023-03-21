@@ -1,5 +1,5 @@
 [package]
-name = "event-processor"
+name = "event-stream-processor"
 version = "1.0.0"
 edition = "2021"
 
